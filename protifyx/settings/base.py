@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 
     # local apps
     "apps.core.apps.CoreConfig",
+    "apps.stock.apps.StockConfig",
     "apps.account.apps.AccountConfig",
     "apps.dashboard.apps.DashboardConfig",
 ]
