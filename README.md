@@ -17,3 +17,60 @@ Finally, the application should offer users the ability to create an account and
 -   Allow users to add notes to each stock
 -   Provide an overall summary of users' investment portfolio, including profit and loss calculations
 -   Offer user account creation and login using email, phone, or social media accounts via OAuth
+
+
+
+## Quick Start
+
+1.  Clone the repository and navigate to the project directory.
+    
+    bashCopy code
+    
+    `git clone https://github.com/your-username/your-project.git
+    cd your-project` 
+    
+2.  Create a copy of the `.env.sample` file and rename it to `.env`.
+    
+    bashCopy code
+    
+    `cp .env.sample .env` 
+    
+3.  Edit the `.env` file and replace the values of `SECRET_KEY` and `DATABASE_URL` with your own values.
+    
+    csharpCopy code
+    
+    `DEBUG=on
+    SECRET_KEY='your-secret-key'
+    DATABASE_URL='your-database-url'
+    CACHE_URL=dummycache://` 
+    
+4.  Install the project dependencies using pip.
+    
+    Copy code
+    
+    `pip install -r requirements.txt` 
+    
+5.  Run the database migrations to set up the initial schema.
+    
+    Copy code
+    
+    `python manage.py migrate` 
+    
+6.  Create a superuser account to access the Django admin site.
+    
+    Copy code
+    
+    `python manage.py createsuperuser` 
+    
+7.  Start the Django development server.
+    
+    Copy code
+    
+    `python manage.py runserver` 
+    
+8.  Open your web browser and navigate to [http://localhost:8000](http://localhost:8000/). You should see the home page for your Django app.
+    
+9.  Log in to the admin site at [http://localhost:8000/admin/](http://localhost:8000/admin/) using your superuser credentials to access the admin interface.
+    
+
+That's it! You should now have a working Django app up and running on your local machine, with your sensitive information securely stored in the `.env` file
