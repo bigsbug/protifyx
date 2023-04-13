@@ -26,8 +26,8 @@ Finally, the application should offer users the ability to create an account and
     
     bashCopy code
     
-    `git clone https://github.com/your-username/your-project.git
-    cd your-project` 
+    `git clone https://github.com/bigsbug/protifyx.git
+    cd protifyx` 
     
 2.  Create a copy of the `.env.sample` file and rename it to `.env`.
     
