@@ -1,5 +1,5 @@
 
-# Project Goals and Objectives
+# Project Goals 
 <details open>
 
 The goal of this project is to create a web application that helps users manage their stock investments. Users can input information about their stocks, such as the quantity of shares, buying and selling prices, and purchase dates. The application will then analyze the performance of the user's investment and calculate profit and loss.
