@@ -24,20 +24,20 @@ Finally, the application should offer users the ability to create an account and
 
 1.  Clone the repository and navigate to the project directory.
     
-    bashCopy code
+    Copy code
     
-    `git clone https://github.com/bigsbug/protifyx.git
-    cd protifyx` 
+    `git clone https://github.com/bigsbug/protifyx.git`
+    
+    `cd protifyx` 
     
 2.  Create a copy of the `.env.sample` file and rename it to `.env`.
     
-    bashCopy code
+    Copy code
     
     `cp .env.sample .env` 
     
 3.  Edit the `.env` file and replace the values of `SECRET_KEY` and `DATABASE_URL` with your own values.
     
-    csharpCopy code
     
     `DEBUG=on
     SECRET_KEY='your-secret-key'
