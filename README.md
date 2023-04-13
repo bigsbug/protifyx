@@ -13,12 +13,14 @@ To ensure secure storage and easy access from any device, users can create an ac
 
 ## Key Features
 <details open>
+
 -   Allow users to add information about their stocks, including buying and selling price, quantity of shares, and date of purchase
 -   Provide real-time data on stock prices, including information on price changes
 -   Enable users to set alerts for specific stocks and receive SMS or email notifications
 -   Allow users to add notes to each stock
 -   Provide an overall summary of users' investment portfolio, including profit and loss calculations
 -   Offer user account creation and login using email, phone, or social media accounts via OAuth
+
 </details>
 
 
